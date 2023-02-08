@@ -11,14 +11,14 @@ function App() {
 
   const ruleOne = (text) => {
     let textResult = "";
-    if(text === "0" || text === "3"){
+    if(text === "0" || text === "1" || text === "2"){
       textResult = "Muy deficiente";
       setResult(textResult);
     }
   }
   const ruleTwo = (text) => {
     let textResult = "";
-    if(text === "4" || text === "5"){
+    if(text === "3" || text === "4" || text === "5"){
       textResult = "Insuficiente";
       setResult(textResult);
     }
